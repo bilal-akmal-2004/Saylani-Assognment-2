@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="marg">
+    <div class="topbar">
+      <ul id="">
+        <a href="home.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="form.html">Form</a>
+      </ul>
+    </div>
+
+    <div class="i1">
+      <h2>Registration Form</h2>
+      <form>
+        <div class="p2">
+          <h4>Username <input type="text" name="Username" /></h4>
+        </div>
+        <div class="p2">
+          <h4>
+            Password
+            <input required type="text" name="Password" maxlength="5" />
+          </h4>
+        </div>
+        <br />
+        <br />
+        <h4>
+          Write Your Comment <textarea name="" cols="20" rows="6"></textarea>
+        </h4>
+        <br />
+        <h4>Gender /Male<input type="radio" name="gender" value="male" /></h4>
+        <h4>
+          Gender /Female<input type="radio" name="gender" value="female" />
+        </h4>
+        <br />
+        <h4>Please select this</h4>
+        <input type="checkbox" name="bats" value="gray" /><sub
+          >Gray-Nicholas</sub
+        >
+        <input type="checkbox" name="bats" value="ca" /><sub>CA</sub>
+        <input type="checkbox" name="bats" value="mrf" /><sub>MRF</sub>
+        <br />
+        <br />
+        <h4>Select any one of the device.</h4>
+        <select name="devices" multiple>
+          <option value="pc">PC</option>
+          <option value="mobile">Moble</option>
+          <option value="laptop">Laptop</option>
+        </select>
+        <h4>Upload Image <input type="file" name="user_img" /></h4>
+        <input type="submit" name="submit" />
+      </form>
+    </div>
+  </body>
+</html>
